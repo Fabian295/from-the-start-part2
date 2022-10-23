@@ -1,0 +1,15 @@
+$h1-clr: aqua;
+$bg-clr: #252525;
+$clr: #fff;
+$font-fam: 'Convergence', sans-serif; 
+
+body {
+  font-family: $font-fam;
+  background-color: $bg-clr;
+  color: $clr;
+}
+
+h1 {
+  color: $h1-clr;
+  text-align: center;
+}
