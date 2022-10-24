@@ -9,7 +9,7 @@ import './styles/styles.scss';
 
 const store = budgetStore();
 
-console.log(store);
+// console.log(store);
 console.log(store.getState());
 
 store.dispatch({
