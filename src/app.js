@@ -14,7 +14,17 @@ console.log(store.getState());
 
 store.dispatch({
   type: "INCREMENT"
-})
+});
+console.log(store.getState());
+
+store.dispatch({
+  type: "DECREMENT"
+});
+console.log(store.getState());
+
+store.dispatch({
+  type: "RESET"
+});
 
 console.log(store.getState());
 
