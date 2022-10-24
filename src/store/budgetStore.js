@@ -6,8 +6,16 @@ export default ()  => {
      switch( action.type ){
       case 'INCREMENT':
           return {
-            counter: state.counter + 1
+            counter: state.counter + 10
           };
+      case 'DECREMENT':
+        return {
+          counter: state.counter - 2
+        }
+      case "RESET":
+        return {
+          counter: 0
+        }
         default:
           return state
       }   
