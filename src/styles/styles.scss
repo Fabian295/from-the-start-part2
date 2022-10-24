@@ -13,3 +13,27 @@ h1 {
   color: $h1-clr;
   text-align: center;
 }
+
+.App-h4 {
+  text-align: center;
+  color: skyblue;
+  opacity: 0.4;
+}
+
+.nav-link {
+  color: burlywood;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 350ms ease;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.active {
+  color: aqua;
+  font-weight: 900;
+}
