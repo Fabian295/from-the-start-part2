@@ -6,11 +6,20 @@ export default ()  => {
      switch( action.type ){
       case 'INCREMENT':
           return {
-            counter: state.counter + 10
+            counter: state.counter + action.incBy
           };
+      // case 'DECREMENT':
+      //   return {
+      //     counter: state.counter - 2
+      //   }
       case 'DECREMENT':
+        // const subtract = typeof action.decBy === 'number' ? action.decBy : 1;
         return {
-          counter: state.counter - 2
+          counter: state.counter - action.decBy
+        }
+      case 'SET':
+        return {
+          counter: action.setBy
         }
       case "RESET":
         return {

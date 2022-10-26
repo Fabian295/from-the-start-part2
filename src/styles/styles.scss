@@ -37,3 +37,11 @@ h1 {
   color: aqua;
   font-weight: 900;
 }
+
+button[data-clr="red"] {
+  color: aqua;
+  background-color: darkblue;
+  border: 2px solid aqua;
+  border-radius: 1rem;
+  cursor: pointer;
+}
