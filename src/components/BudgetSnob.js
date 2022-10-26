@@ -82,6 +82,7 @@ const renderDec = () => {
           }}>Store Decrement</button>
         </p>
       </div>
+      
     </div>
   )
 }
